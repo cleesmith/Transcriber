@@ -1,0 +1,39 @@
+# do NOT put any of the following in the github repo:
+
+# not used, but ignore environment variables just in case:
+.env
+
+# macOS folder attributes:
+.DS_Store
+
+*.log
+config.ini
+models.ini
+git_setup.txt
+cls*
+youtube*
+yt*
+mule*
+shelve*
+hopo*
+menu*
+Anthropic*
+anthropic*
+Log*
+Server*
+*Aidetour_Chat_log_*
+*.json
+
+# PyInstaller stuff:
+build/
+dist/
+*.spec
+# to stop creation of __pycache__ do:
+# PYTHONDONTWRITEBYTECODE=1 python -B Aidetour.py
+__pycache__/
+
+# Shelve files:
+*.db
+*.dat
+*.dir
+*.bak
