@@ -2,14 +2,19 @@
 
 YouTube video to audio to text:
 
+```
 pipx install insanely-fast-whisper
-PYTORCH_ENABLE_MPS_FALLBACK=1
+export PYTORCH_ENABLE_MPS_FALLBACK=1
+```
 
-Since insanely-fast-whisper only does audio:
-## 1. do/find a youtube video about whatever, or read a book/chapter then:
+## 1. Since insanely-fast-whisper only does audio; copy link to a youtube video about whatever
+
 
 ## 2. pip install yt_dlp
+```
 python -B cls_yt_audio.py ... works, even with Live videos
+```
+```
 import os
 from yt_dlp import YoutubeDL
 
@@ -35,6 +40,7 @@ def download_audio_from_youtube(url, output_path='output_audio.mp3'):
 print("Downloading audio from YouTube...")
 youtube_url = "https://www.youtube.com/live/5Ov_D8DjBks"
 audio_file_path = download_audio_from_youtube(youtube_url)
+```
 
 
 ## 3. which yields: audio.mp3 so then do:
@@ -42,12 +48,14 @@ audio_file_path = download_audio_from_youtube(youtube_url)
 insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
 ```
 
+
 ## 4. which yields: output.json so then do:
 ```
 python -B convert_output.py output.json -f txt -o .
 ```
 ... see:
 https://github.com/Vaibhavs10/insanely-fast-whisper/blob/main/convert_output.py
+
 
 ## 5. which yields: output.txt so the last step is:
 paragraphs, how?, so ChatGPT 4o gave me this:
