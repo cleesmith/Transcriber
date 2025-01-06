@@ -1,19 +1,16 @@
 # Transcribe YouTube videos, even Live ones, into readable text.
 
-YouTube video to audio to text:
-
+Install:
 ```
 pipx install insanely-fast-whisper
 export PYTORCH_ENABLE_MPS_FALLBACK=1
+pip install yt_dlp
 ```
 
 ## 1. Since insanely-fast-whisper only does audio; copy link to a youtube video about whatever
 
 
-## 2. pip install yt_dlp
-```
-python -B cls_yt_audio.py ... works, even with Live videos
-```
+## 2. copy link to youtube video into:
 ```
 import os
 from yt_dlp import YoutubeDL
@@ -41,15 +38,20 @@ print("Downloading audio from YouTube...")
 youtube_url = "https://www.youtube.com/live/5Ov_D8DjBks"
 audio_file_path = download_audio_from_youtube(youtube_url)
 ```
+... run:
+```
+python -B cls_yt_audio.py
+```
 
 
-## 3. which yields: audio.mp3 so then do:
+## 3. cls_yt_audio.py yields: audio.mp3 so then do:
 ```
 insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
 ```
+... 2 hours of audio takes about 12 minutes on a MacBook Pro M3 Max
 
 
-## 4. which yields: output.json so then do:
+## 4. step 3. yields: output.json so then do:
 ```
 python -B convert_output.py output.json -f txt -o .
 ```
@@ -57,48 +59,13 @@ python -B convert_output.py output.json -f txt -o .
 https://github.com/Vaibhavs10/insanely-fast-whisper/blob/main/convert_output.py
 
 
-## 5. which yields: output.txt so the last step is:
+## 5. convert_output.py yields: output.txt so the last step is:
 paragraphs, how?, so ChatGPT 4o gave me this:
 ```
 python -B transcript_paragraphs.py 
 ```
-... which uses output.txt to create formatted_output.txt
-```
-import re
-import textwrap
+... which uses output.txt to create formatted_output.txt (paragraphs)
 
-def add_paragraphs(transcribed_text, sentences_per_paragraph=5, line_width=70):
-    # normalize spaces
-    transcribed_text = re.sub(r'\s+', ' ', transcribed_text).strip()
-    
-    # split the text into sentences, keeping the punctuation with the sentence
-    sentence_endings = re.compile(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|\!)\s')
-    sentences = sentence_endings.split(transcribed_text)
 
-    paragraphs = []
-    for i in range(0, len(sentences), sentences_per_paragraph):
-        paragraph = ' '.join(sentences[i:i + sentences_per_paragraph]).strip()
-        wrapped_paragraph = textwrap.fill(paragraph, width=line_width)
-        paragraphs.append(wrapped_paragraph)
-
-    formatted_text = '\n\n'.join(paragraphs)
-
-    # ensure the last sentence has punctuation
-    if not re.search(r'[.!?]$', formatted_text.strip()):
-        formatted_text += '.'
-
-    return formatted_text
-
-with open('output.txt', 'r') as file:
-    transcribed_text = file.read()
-
-formatted_text = add_paragraphs(transcribed_text, sentences_per_paragraph=3, line_width=70)
-
-with open('formatted_output.txt', 'w') as file:
-    file.write(formatted_text)
-
-print("Formatted text with paragraphs and line wrapping has been saved to 'formatted_output.txt'.")
-```
-
-## ... which is more readable, but not perfect, but AI's can "read" it and summarize and give key takeaways
+## ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
 
