@@ -2,6 +2,10 @@
 
 # not used, but ignore environment variables just in case:
 .env
+*.mp3
+*.wav
+*.mp4
+*.mov
 
 # macOS folder attributes:
 .DS_Store

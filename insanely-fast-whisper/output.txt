@@ -1,384 +1,176 @@
- Okay, I'm live. Hello everyone. How are you all doing? Can you all hear me? Let's start with that.
- I've pinned today's Notion document in the live stream, live feed, and it's also already in the
- description for the video.
- And you'll notice it's a novel crafter link,
- but that'll just take you straight to the Notion document.
- We're just trying to tidy things up.
- So don't worry about that.
- We got you all good.
- But yeah, hello.
- So this is a slightly later timed stream
- and it's going to just be for the hour so we're going to try and cram more in
- but see how it goes and then maybe also be doing a stream later in the week kind of more appropriate
- for um those of you who are in like American time zones so it's gonna be a late night for me but um
- we're gonna do that um hopefully with a guest so keep your your ears
- eyes peeled everything peeled potatoes um for the announcement about that stream
- um but yes um morning afternoon evening everyone um and yeah let's get started so this is kind of the we we've spent a lot of time kind of preparing our
- novel um and going through all the different kind of um like kind of almost like pre-developmental
- edits like doing them before we've written the book using our novel kind of outline as context.
- But now we're gonna just dive in and start writing.
- And so this next batch of episodes in the series
- are going to go into kind of like
- how to use Novel Crafter to kind of,
- once you've got your plan to start writing.
- And then we're gonna look a little bit
- at the text replacement prompts in later sessions
- and kind of just start plugging through.
- But this session is on the first chapter beats.
- It's on how to kind of get those formatted
- and we've got some new prompts to share with y'all
- in the document.
- And also kind of the value of
- beginning to write yourself before going with the AI so like I will show you this because I was
- doing some testing like you know to make sure that this would work and it's crazy like it's
- really nice to see kind of the vindication of actually what your input and how it influences the AI.
- So yeah.
- Okay.
- So I've included on here some kind of helpful links.
- So there's the past, I think the first one is from the Red Riding Hood beats class.
- And that spoke about, we tested different styles of beats that you've seen in the short form
- video um and then there's the um I'm guessing the next one will be um the document for um
- the the the oh my goodness words words. Um, Cozy Mystery.
- Completely forgot what I did then.
- Yeah, so the Cozy Mystery.
- Um, and so you can look back at past lessons if you don't want to have to check out four hours worth of live streams.
- There's also a, um, document.
- The third document is the kind of script I used for one of the short form beats videos, if you prefer to read.
- And then we've, um, included a link to kind of any short form beats videos if you prefer to read and then we've included a link
- to kind of any novel crafter videos we've already done on beats okay um so that that's our kind of
- catch-up um and yeah I'll just get started in. Seems like there's a good amount of you here.
- So yeah, let's begin.
- Okay.
- First of all, I think is a thing that a lot of writers,
- like I know I had issues with this when I first started writing with AI
- because it wasn't how I thought when I wrote.
- But like, what is a beat?
- And essentially a beat is a short set of instructions that kind of detail what
- happens in like a single moment of a story. So it's like kind of like a summary but depending
- on the type of beat it can encompass other stuff. But think of it as like a summary, like a very like micro detailed like you this is the telling not showing of uh writing the
- beat like you're just telling what happens and then you pop it into prose later on so
- we're gonna have a brief interlude reverse engineering beats so I like to think about
- like my writing and well kind of when I was making the fine tunes I noticed like we noticed
- in general that there was um a difference in the quality of output depending on whether we wrote
- our own beats or if we got the AI to summarize the prose to make a beat um I think that's because
- often we summarize things a lot more concisely because we have a filter of what we believe is important.
- So I've included this kind of 400-ish word chunk of prose that I've written as like the first beat
- for this story and then in the next paragraph or the next like drop down, I've included how I would summarize it if I was to like summarize it as a beat.
- And then we have here. So I use the general purpose prompt.
- I kind of basically gave the AI, you know, told it what a beat was.
- Please write a single story beat for the following prose.
- the following pros and then we can see here the different outputs from various models.
- There is a little bit crossed out in Sonnet because it got a detail wrong but I thought I wanted to include it so that you could see kind of where it had not quite summarized but all of them
- have done a good job they're just a lot longer so it's kind of it's a lot more telly and so I kind of see that as a
- most like a guide for so if this is what it took the text for to then put as a
- summary it might be that to get prose nearer to what you want, you have to be a little bit more descriptive in your beats.
- But that's for more of your, if you want more control over your writing.
- If you kind of are more a pantser and you just want to see how things go,
- go ahead.
- Just put a short thing in and you'll find it really inspires your creativity.
- Okay.
- and like you'll you'll find it it really inspires your creativity okay um so yeah you can you can check all this out here um but how do we work out what our next beat is
- so kind of like how do we like take um the overall flow of beats and kind of get it to work because a lot of times like if you
- just ask GPT or Claude or whatever to just be like that you kind of like it'll come out
- kind of weird like it'll they will give you beats but it won't be
- they won't be meaty enough to kind of show
- of show everything that you personally would want to encompass in a chapter. So I kind of like, when I make my beats I tend to have an idea of how I want a
- scene to play out because I'm quite a heavy plotter and so, however, I'll tweak
- as I go. But Corey this week has been doing some amazing work making us a
- new prompt so I'm really excited to kind of like debut it here and there's so if
- you want to copy it you can copy from here go on to prompts then click new and create from clipboard.
- And that string of letters is basically like a shorthand
- way of doing the prompt with all the models.
- So you'll keep all the models that he has selected
- and all the text in there.
- So everything is like duplicated.
- So it's a brilliant way of sharing your prompts
- with other people.
- everything is like duplicated. So it's a brilliant way of sharing your prompts
- with other people.
- Okay, oh, Jean-Luc says that Sonnet's been behaving
- strangely on occasion.
- Yeah, I've seen that like a few times
- like with different prompts.
- It's not been wowing me as much as it has in the past,
- which kind of makes me wonder,
- have we got a Claude 2.1 scenario?
- Hopefully not, but we'll see. So yeah, so
- Corey has now written a nice little bit for us which goes hand-in-hand with
- the prompt. So if you've... I don't know if you you've heard of the the scene sequel
- method. let me
- so yeah so the scene sequel are two types of written passages used by authors to advance the plot in a story so scenes propel it forward and sequels are kind of like a reaction um I like to I like that and I kind of
- like it always reminds me of that when I read this progression that Corey has kind of has um developed
- for us um hey Joe uh so we have a character has a goal, the goal leads to a conflict, the conflict leads to an outcome,
- either good or bad, then there is a reaction to that, the reaction leads to a dilemma and then
- that dilemma leads to a decision which then leads to a further goal and then it keeps going. So this
- could be split over multiple chapters, especially if like, I don't know if it's like,
- you could have like as a longer form or if it was a fight scene, you might have multiple of these
- within a chapter. And that's kind of like up to you for, it's up to you to kind of determine
- what pacing you want. However, using this is really good for getting a good start with AI.
- We've also trying to kind of fix the tie up.
- We've included a little bit extra in the prompt
- that gives kind of like a prompt for the AI
- to kind of add a little bit of a cliffy,
- a cliffhanger on the end
- of the chapter so if we go into uh version five so you're a helpful expert plot outline assistant
- um whenever you're given a scene or chapter summary develop a list of detailed scene beats,
- don't be vague, write out specific ideas. So we've got this that we were just talking about,
- we then have the random cliffhanger, so the AI will choose the random cliffhanger which kind of
- also adds a bit of surprise for you but you can also use this you could then ask as a follow-up question
- give me five more cliffhangers that I could use. You don't have to go with what the AI is saying
- it's just kind of adding a way to try and tie up the scene without it doing boitis.
- So yes let's see how this goes. So I've been playing around with this a little bit.
- So here we have, I've included the large kind of chapter summary that we were working on.
- This can all be found so we've got chapter summary
- and the detailed summary and then I also tried some abbreviated summaries with this and then we have
- some work so we've got different versions you can kind of read through these a little bit like
- in your own time it'll be quicker I think than me reading them out however you can kind of read through these a little bit like in your own time it'll
- be quicker I think than me reading them out however you can see that in the
- detailed summary there is much more so like Perrin so in the chapter summary there's a large amount on the
- fixing and the sabotage and then afterwards at the very end Perrin comes
- along with his sniffer dog, however in the abbreviated summary a lot of that is
- kind of skimmed over.
- And so the proportion of which Perrin and the sniffer dog are actually there becomes much more prominent.
- And so that reflects in the beats that are generated.
- So it's kind of worth keeping that in mind.
- Like when you give a chapter summary for beats to be made, pace it in the way that you would pace the chapter. Like if something's only gonna happen at the end,
- don't mention it loads because otherwise,
- because the AI doesn't know that's what you're thinking.
- Oh yeah.
- And I kind of like how,
- depending on how much different detail you put in,
- there very much is a different emphasis
- that the AI thinks of the conflicts so here in this one with the the detailed summary it takes
- the conflict as the uh Delilah's impatience during the broadcast whereas in the shorter summary where it's kind of very quickly glossed over, the conflict
- is finding the earring and a clue to the saboteur. So now I would probably do something that's in
- between, like I probably wouldn't pick either myself. However, it's interesting to see kind of
- that you have all these different iterations and you can just click retry or please go again or just start another conversation and it will
- give you a lot of options. So what I'm gonna do now is I've started working on
- kit bashing, I think I, because I was testing out the prompts, I had about 10
- different versions of this so I've started work on kit bashing these as I'm
- gonna go I've been doing it in the right interface and then I've got a snippet as
- well with some of the bits that I need to put in so I'm going to work on that
- for a little bit and then we're gonna go on to actually using the beats and doing two sample chapters so one will use um my pros at
- the beginning and one will use AI generated pros at the beginning and then I think we're going to
- do like a compare and contrast so if there's definitely some like insatiable curiosity that
- in all these summaries has very much become like a um aism um Delilah quickly recognises the cut wires and the deliberate nature of the sabotage.
- I'm going to say and concludes sabotage.
- Mainly because, like of course it's sabotage um mainly because like of course it's sabotage um
- by curiosity she opens
- sabotage the uh not the wires um i guess the power in the and then I've added a location for this.
- I had an acronym and I cannot remember what it is.
- Infrastructure hubs.
- And PDAC stands for power distribution and control center and so that's kind of
- like the the main where how to divert the power to different areas of the city
- I'm sorry driven by curiosity
- finding the source of the smell. It opens up the panel. I'm going to say creating a lull as the clanking of daily life stops. Delilah however uses
- the opportunity to search for a snack in her pocket, irritated at the enforced downtime and before she can take a bite the lights flicker back on restoring
- yeah sorry from a distance calls out to Lila
- you
- I back to test good hand and she reluctantly gets back look Who's quote? you
- like some of these beats because they're AI generated they are a little bit more worthy than I'd like so I'll probably cut them down a little bit more but I'm
- kind of curious to see how it goes as well
- I mean
- I mean
- yeah
- although I suppose that would be a good chance to and how they impact on this city city.
- Well, it was efficiently
- and you back to these she's thinking about the sub touch okay um
- Picking away her tools into her belt, Delilah realizes that the bolt wasn't a... that fell wasn't a bolt, it was during
- pockets
- a bolt falls and
- okay Okay.
- Or she and
- or she can look at the earring.
- the earring
- the cable securing Delilah around always pulls her back towards the entrance It goes to take a closer look at the earring that she can see.
- But before she can inspect it,
- pockets. um pockets
- um
- Then um
- Hmm emerging from the tunnel killer encounter Thank you. you here's him talking and lines that the man's name is Perrin. I'm going to go ahead and do that. Uneasily if then
- I'm making up an
- Eve
- And and lets her go with a wave of his
- the earring again and recognizes the engraving on the gold on the silver metal it belongs to her sister and then that like is the
- like the conclusion of the first chapter I think okay so then I want to make sure that I kitbash
- this little bit in you you you you
- you
- you
- you
- you
- you Okay, I think I'm fairly happy with that.
- Let me, so I pressed control A twice,
- because if you do control A once,
- it'll just go over a paragraph.
- Whereas if you do it twice, it will do the entire chapter.
- So I will put this here for you um my plan
- i'm actually just gonna pop that in here um because i'm not gonna so usually so a lot of
- the times you could have like your scene beats here um in your your scene summary however it's not
- going to access that so i like to um i will end up putting them here however we're going to do
- an experiment so we've got our two things uh so we're gonna have
- my bad can i rename subtitle um this is the one with kate prose um to start and then this is the one uh i guess okay prose and what i will do as well is to ensure that the previous chapter doesn't
- influence this chapter I will switch their order as we go along but I'm just
- gonna
- so to do the shortcut I'm doing uh shift and then the little line slash backward dash
- and then press space and it comes up i'm just creating these lines as well because if you don't
- um the beats end up being next to each other and i don't aesthetically like that for my
- mind um i prefer there to be a space okay so all this first for the the Kate
- prose this first scene beat hasn't quite finished as you can see like we end up with her finding the
- sabotage but this bit hasn't happened yet so I'm going to put that this bit at
- the top and then I will add a new scene beat to include that and some of
- the next and this next bit
- but before we continue I will also show you the so the I use
- I'm
- I've got my my current, you can copy here.
- It's a slightly adapted version of the one from Space, which I've included on here.
- And there is the prose style guide, which I've put as Delilah's scenes are succinct, filled with attitude and casual comments on what she sees.
- While she uses proper grammar, scenes from her perspective are conversational and her
- running commentary is forever on the move um my prompt as well current writing prompt
- um includes the genre and the theme and then also um some little bits on like avoiding
- certain stuff so we'll see how well that works.
- Before I begin, does anyone have any questions?
- Where are my A.I.isms list.
- Rose Style Guide.
- My theme. These are both global entries.
- And I think I will start with the Kate prose version. See how it goes. I also did some character prep. some different bits about the buildings and the characters if you wanted to reference them
- um I was going to use sonnet but if that's been playing up recently...
- Still go Sonnet. We'll see how Sonnet does. I like Sonnet. I mean I like Opus better but money. Let's go, current writing prompt.
- We can try Sonnet and then also try Opus maybe and not Opus, 4.0, see how that goes for mimicking style.
- So things I'm looking for here are how well it continues on from the previous beat, kind
- of what I feel the, how I feel the voice is, and if it's, yeah, followed the beat itself.
- I'm gonna click apply.
- Okay, if it's acting up more in chat than prose, that's fine. Brilliant. So we've got
- before she can delve deeper, the overhead lights flicker off, signalling the start of
- the daily Archon's broadcast. Delilah grumbles about the inconvenience, annoyed at the interruption.
- The broadcast compels all the workers to cease their activities and listen intently, creating
- a lull as the yadda yadda, she looks for a snack, the lights flicker back on. Okay so I will...
- let's see, so the site before Delilah didn't fill her with much hope. The base of the panel was a
- molten mess, smoking wires poking out plastic gunk. She sniffed cautiously. Whilst lack of ventilation
- hit the exact time of sabotage, the damage didn't feel old. She felt the edges of the casing, finding
- the plastic supple to the touch and still warm.
- The overhead lights flickered, plunging Delilah into darkness.
- She froze, hands still resting on the melted panel
- as the familiar droning voice of the Archon
- crackled through unseen speakers.
- Blessed are those who walk the path of righteousness.
- I feel like that's probably Archon, um,
- the title filling in that so
- delilah rolled her eyes as if that pretentious windbag knew anything about being righteous she fumbled in her pocket fingers closing around stale protein bar um as the arkans platitudes washed
- over her ripping it open with her teeth she She took a bite, the dry crumbs sticking
- in her throat. For a few blessed moments, the only sounds were the Archon's muffled ramblings and her
- own chewing. No clanging machinery, no shouts from overseas, just blissful quiet. Then the lights
- blinked back on, harsh and unforgiving. Delilah! Zora's shrill voice shattered the calm. Have you
- found anything yet? Delilah swallowed hard, the protein bar turning to sawdust in her mouth, back to the grind. She peered closer at the ruined circuitry, prodding
- gingerly at the still-worn plastic. Fresh damage, no question, but who would sabotage the power grid
- and why? A dozen potential culprits sprang to mind, rebels and disgruntled workers and even
- bored kids looking for kicks, but none of the usual suspects fit. This was too precise, too surgical.
- No wanton destruction, just a strategic strike to cripple the system.
- Nicodemus's words from a few nights ago echoed in her mind.
- There are bigger players in this game than you realise, girl.
- People with plans that stretch back decades, maybe centuries.
- At the time she dismissed it as the ravings of a paranoid old man, but now?
- Delilah's gaze drifted up to the scorched panel,
- taking in the melted components and frayed wiring.
- This wasn't some random act of vandalism.
- This was a calculated move in a much
- larger game. Her fingers tightened
- around the power cable as a shiver
- ran down her spine.
- Take a drink.
- Whatever was happening here, she was a mere pawn. One of the real players
- wouldn't hesitate to sacrifice.
- Delilah, Zora's voice cut through her thoughts,
- much more insistent now.
- What's the prognosis?
- Delilah took a breath, shoving aside her unease,
- as she always did, one problem at a time.
- It's going to take some work, she called back,
- already reaching for her tools,
- but I'll have it sorted.
- For now, at least.
- But as she set to work repairing the latest damage,
- she couldn't...
- Okay, so this last paragraph um just get rid of like that's all 99% of the time with AI like
- the issue with AI wrapping things up is it's kind of trained in a question answer format
- so imagine if you were asking for a recipe and the recipe cut out mid like your cake being in the oven and you didn't
- know how long you had to leave it in for. That wouldn't be great and so it's kind
- of like I feel like every time we're asking it to cut off early it's kind of
- trying to go against its will. However if you a um let's let me just try this again with my
- um this is with fine-tune prompt i've done where i've fine-tuned the model
- to answer not completely so i think this will will kind of just show how different it is.
- Yeah, so you can see here it's finished mid kind of broadcast as it were. I will put this into the document for you
- all and then we're going to do the where the AI has done both beats and we'll kind of do a compare contrast that goes
- okay so then what I will do to ensure that it doesn't mess anything up I'm
- sticking this at the front so that means there's no way that it's reading because
- it's not reading back so go back into the ordinary world up here um so then we go current writing pros
- on it you
- okay so I'm gonna put the pros here and so you can kind of compare the two versions. I kind of like to know, like not gonna be offended at all, is there a... Do you have a preference at all? Like, you know, it'd be interesting to know. I kind of feel like my prose style has helped with this um
- i'm just gonna
- let's just see how different the pros is
- without the style guide you
- okay interesting I'm certain that we put the pro style guide back so I mean obviously this paragraph is just a thing
- the style guide has definitely made a difference I think
- whatever causes reek it couldn't good I do like how Sonnet brings up different facts from the past.
- Yeah, I don't like Dijon Luke.
- I don't like that it doesn't have any
- especially because it does I think it doesn't mention it in that yeah
- Okay so I'm just going to get rid of the last paragraph again and I'm going to generate the next section. section
- Of course it's kind of then started repeating things
- Okay, it has got some dialogue that's nice now
- I feel like...
- There's some interesting dialogue. But... It's kind of missing something. You know, when you kind of like...
- Like, also, she's in a tunnel. She ain't seeing any faces. So...
- There's... Yeah. I mean, I don't know what you guys think, um...
- But I...
- I prefer the prose that came out here
- and then I do for this second one
- what do you guys think?
- So I think in the same vein, I might so I'm going to archive this original scene and then go to this new
- one back to my original and I'm going to edit
- this
- and then continue going through. So we've got 15 minutes so I'm gonna see what I can get done in 15 minutes. Do any of you have any questions about the stuff that we've done so far today?
- Because I can answer them as I'm as I'm doing this if you want me to.
- So this prompt technically asks for a good ratio of
- like at least 30% dialogue.
- So it's not exactly like it should, you know.
- It shouldn't be doing this. oh yeah of course this was the the i was so confused then for a moment. That's the Kate Fine tune one. So to a blink of an eye, who asks, do you use rephrase prompts at this stage to improve
- the output and or add dialogue?
- So currently I do a mix um
- my favorite um rephrase prompt would be a um my fine-tuned one however that's going to be next
- week's topic so we're going to go through that more next week but we are going to cover that
- um I kind of like...
- I use a mix. I kind of sometimes forget about using prompts for the the rephrasing. So, I'm going to go ahead and do that. until the Oh so for Nakua to create the box for kitbashing if you go onto your like side panel snippet
- you can open up a snippet and then press this pin icon at the top and then that pins it to the side and then I tend to minimize the sidebar. I just should have untangled the wires. plastic
- bird punny I feel like that's good because it kind of introduces the town or the like the city as well. Bless her those who walk by.
- As if that pretentious windbag knew anything about being righteous.
- She fumbled in her pockets, fingers closing around a stale protein bar as the archon's platitudes
- um washed over ripping it over with a
- tea you okay so some bits i'm going to have to you
- so some bits I'm gonna have to remove like obviously Thank you. you who wants Okay so then that's again implying starting to imply the cold and it wasn't it wasn't precise or surgical
- I would get rid of some of this which is fine Thank you. So pretty as you Thank you. you it's interesting how um you
- it's interesting how or into the packaging with a teeth up in both like ripping it from the teeth like it seems to have an idea of what it wants Thank you. Mm-hmm. Mm-hmm. Um... you
- ah
- okay that will do okay let's let's do one more time and get the next I should have included a before and after I what do I have amazing pros before pros after edits then if you want to you can see like what I've edited
- well like what I've edited um cool
- um All right.
- Writing.
- current writing
- yeah and a final call for questions if anyone has them um if not i will do this little bit and then we can head off but next week um
- i'm definitely going to be doing some some work on like
- um kind of taking a chapter that we've generated and using um
- different prompts so like if anyone has any prompts that they want to share in the discord
- community that would also be really cool and i can try some of them out kind of just showcase
- what we have with um with editing and kind of adding in say if we wanted to do like a micro beat in the middle of there to add in a bit extra
- we could do that Thank you. Thank you. Thank you. Okay. Thank you. I think, I'm not meant to know, it's Kiris. Thank you. you and I'll work that out later okay it's um five o'clock now so I will head off but thank you all
- for coming I hope you enjoyed it um I look forward to the stream that might be happening later this week
- And of course for Saturday's stream where we will go over. I think what I will do is
- finish this chapter and
- then
- Like in my time, yeah yeah we're entering over time uh but yeah we'll finish this chapter and then i will
- like off camera and then i'll come back with it kind of like in a
- preliminary state and do like some edits and some like different techniques that we can do and like
- show off different novel crafter prompts
- um and yeah it'll be it'll be a bit of fun i think um so yeah i hope you all enjoyed yourself
- um and uh enjoy your breakfast lunch dinner uh whatever you end up eating um yeah bye
+ Okay, welcome. I'm going to go over and I'll hop off of that so I can see what's going on.
+ I'm going to get this down here out of the way. I'm going to talk about maintaining a personal
+ website on GitHub, which I think they call GitHub Pages. And you see a little list over here if that's showing up. The tools you'll need,
+ which really aren't tools. One of them, two of them, I guess, are. But you'll be using Finder
+ on a Mac or File Explorer if you're stuck on Windows. I recommend Sublime Text as the editor,
+ text editor, but can be anything. Text edit, notepad, it doesn't matter.
+ And whatever your web browser is, that will work. Safari, Chrome, Firefox, Edge, whatever you got.
+ And you'll need an app from GitHub, which is where you put your GitHub page, your GitHub repo,
+ which I won't go into how to set that up and all that. There's lots of videos for that.
+ I'm just going to talk about you got one and you want to change it.
+ You want to make those changes nice and consistent and pretty much easy to do.
+ Almost a no brainer kind of thing.
+ So the first thing we will do is we will go and open Finder.
+ And let me see if I can hide this cam window
+ so it's not in my way.
+ Hide e-cam.
+ Okay, there we go.
+ Kind of.
+ Really?
+ Hmm.
+ So usually it's going to be iCloud G drive or something.
+ You're just looking for a picture, like a JPEG maybe.
+ Let's just do the one I did yesterday and messed up because it's PNG, but I'll do it anyway.
+ So we're going to highlight that somewhere, wherever you have it.
+ You look for it, you found it, and that's what you want to put on your web page now, on this type of web page. So we've
+ highlighted it, selected it, we go up here to this little circle
+ which hopefully is showing up, and
+ we will do a copy. You can also go up in the
+ bar up there and do the same thing. So now that we've got a copy of it, we're
+ going to go where our GitHub stuff is, which is right here. And this one's called lindelavid.github.io.
+ And just a tip, if you don't have a permanent web address, like whatever.com,
+ you can always just use this. It works right away.'s say we're we're in the github repo underneath
+ github let me make that clear so we go into our github repos here i got several we're going to
+ work on this one which i brought down just to work on you can see it's broken up nicely it's got
+ images it's got css It's got its HTML pages.
+ All right there.
+ Let's whack whack on it so we're just seeing that.
+ You see all your HTML pages, which we're going to change.
+ And we're going to put this new image that we just got the candles thing over here.
+ And there's many subfolders under images.
+ And one of those we're headed to and want to do is
+ journal so we go into it and we go to this circle thing again and we paste our
+ new candles video and I'll get rid of this one so it's not confusing so that's
+ what we're going to go after and put into our code so while we're here if you
+ tap on it on a Mac anyway you can change the name but we're not So while we're here, if you tap on it on a Mac anyway, you can change the name. But
+ we're not changing it. We're just doing it so we can do a Command-C and copy that name. And you
+ probably saw a little flash. That was it doing the copy. So now we're done with Finder.
+ Let's go to the... That was all of this right here in my little notes.
+ We used Finder.
+ We found what we wanted.
+ We moved it over to Documents, GitHub, our repo, which is, you know, lindalavid.github.io.
+ And for this example, and then we pasted what we copied into there.
+ So it's ready to roll.
+ Now you would use whatever editor you prefer.
+ In this case, it's going to be Sublime Text,
+ which is this weird little ziggy-zaggy thing over here on my screen anyway.
+ So we bring that up, and most likely it will come up blank like this.
+ But this is how Sublime Text, once it's been opened on a certain folder, which is this one, it will show you everything underneath it.
+ And we're really headed for this thing called journal.html because we want to change that.
+ Now, first, let me see if I changed it yesterday.
+ If I did, no, I did not. I think this has been altered a little bit.
+ That's okay. We'll fix that. Yes, it has been altered. So I will move this down here. Okay, so we're in a row of these little
+ image things. And what you will do, you'll come in here and I use my cursor here and put it on the line above one that already
+ exists. So this is an image that's already there. And when it gets selected like that, you can do a
+ command C. And then when you move down one, it moved down to here, but we move it back up.
+ We can do command V to paste it back in. And in here,
+ we're going to put in that name that we just got from over there. Well, we did not get it from over
+ there. So you go look at journals. And I can see the name here, candles underscore plus ping.
+ I can see the name here, candles underscore plus ping.
+ So let's just do that.
+ We always try to keep them lowercase.
+ This always works no matter what.
+ 50 plus dot PNG.
+ And then here I just change beauty to candles.
+ So now we see a little dot up here, a big circle, and that means it hasn't been saved,
+ this document, journal.html. So we command S, or we go to file and save.
+ And in the menu bar, there's the hint, that little swiggle thing means command, and that's an S.
+ So now it's saved because it went back to X.
+ And to preview this and see if we did a good job,
+ we just pick a blank line and we kind of double tap or right click if you're able to.
+ A menu pops up, and one thing in the menu you want to use is open in browser.
+ Now I'm not sure where that's going to end up in a new tab in my existing window.
+ So now we're looking at it locally.
+ You can tell by the name with all the slashes in there.
+ Plus it says file on Chrome.
+ Not sure what it does on Safari, but probably something similar.
+ And we scroll down.
+ Where's those candles?
+ There they are.
+ So we just updated our page, but only right here on our machine where we test everything.
+ So if we were doing more, we could probably keep this open. And when you come back, you can do a refresh on Safari, like reload the page. I think on Safari Safari it's right here in the bar, the URL bar.
+ But anyway, that's that.
+ You would probably kill that or close the browser.
+ So now you're ready for the next step.
+ Let's make sure we covered everything.
+ We're in Sublime Text, which we may have had to start either from the doc or an applications folder in Finder.
+ We click on what we wanted to edit, which is journal.html. to start either from the doc or an applications folder in Finder.
+ We click on what we wanted to edit, which is journal.html.
+ We scroll to that last bottom line of Ask Us, which
+ is really marking where the last thing we changed
+ is at, which most likely is what you want to copy.
+ If you're doing a page like this,
+ where you may have an endless series of images
+ you want to put in.
+ And go through all of that.
+ We did a Command-C. We did a V. We selected a block.
+ And by block, I mean, let's go back over here for a second.
+ By block, I mean this.
+ There's a blank line, then a div, then to the closing div.
+ That's what I mean by a block of...
+ We want to copy that every time. And then change inside it this name
+ and that name. And then save. That's it. So we covered that.
+ And of course you would repeat that as needed to do all of your images.
+ So now you're done with Sublime. You saved it. It's an X now, not a circle.
+ You go up to Sublime and you quit Sublime. Just get it out of the hopper. And let's put our
+ screen back up so we can see that. We're still here, but where are we headed this time?
+ Okay, we don't need that. We're headed to the part where we try to make this live.
+ So we're going to go to an app that we downloaded and installed previously.
+ There's also videos for that. It's called GitHub Desktop.
+ Usually it looks like some kind of little cat. There it is.
+ So let's bring that up.
+ Okay, it's not taking up too much screen.
+ Let me make it a little bit bigger maybe. I think I got to be on it to move it. There we go. Okay.
+ Okay, that's good. Now the first thing you notice when it comes up is you have a
+ choice of repositories.
+ I have many, but we're just going to focus on this.
+ And if you only had one, that's the one that will come up.
+ And you can ignore these Mac things at.ds store.
+ You don't care.
+ Nobody cares.
+ Most people want it to go away.
+ So these first two are Apple Mac things going on, and you just don't
+ care. You want to see your two things you changed. One, you added this new image, that one,
+ and you changed this page, and it'll show you your changes if you click on these things. You
+ don't have to, of course. You can just come here, and you can type, I won't push this, but we'll type added image,
+ added candles, so it makes sense later, candles image, and then this comes up,
+ says commit to main, which I can do right here, I think. And it did.
+ So locally, I've made the changes in a repository, they call it.
+ It's like a history thing, versioning thing.
+ But you can see up here in this area that all your changes are gone because you don't have any new changes.
+ And then on this side, it will say no local changes, which you don't have any new changes and then on this side it will say no local changes which you don't have but you do have stuff you can push origin
+ this button comes up and when you click that it's like making it live but not
+ really it goes up to github sits around for a while they chew on it and then it
+ becomes live it usually takes a couple minutes so let's make
+ sure we did all that because this is our last step at this point you would have verified everything
+ you would have pushed it up there and you'd be good to go so we did that we we clicked in our
+ doc but it could be an applications folder you You'll see a list of your changes.
+ You'll enter a summary, this thing over here.
+ And you clicked on commit domain, which we did.
+ It follows well.
+ On the right panel, you'll see push origin.
+ There sometimes can be mistakes and errors, which you have to clear up, but usually not.
+ Then you click that blue
+ button and when you do that it's sending everything you change to
+ github and they're making changes and when you're done with that if I had
+ clicked on it both panels would be nice and clean you would just this blue area
+ would go away completely and you would just see these three down here,
+ which you don't care about at this point. So that means you're good to go. Now,
+ this last step here, I'm saying, let's give that a color while we're here.
+ I'll make it green. What the heck? There we go. And you just need some patience to wait for it to be updated by
+ github and no matter how many times you go back there and you know click on it
+ to try to hurry it up that actually seems to delay it usually they just wait
+ for a while so now we're done with github desktop let's close that and
+ let's bring back now we're done with finder too so let's bring back.
+ Nope, we're done with Finder 2, so let's get rid of that.
+ Let's bring back the browser so you can see what our end result is.
+ And if you were to come back here, you would see updated like a minute ago or something.
+ I'm not going to change it because it's somebody else's.
+ But that is it.
+ Now let me go find my thing so I can end it here.
+ 14 minutes is a little long.
+ Once you get the hang of this, it won't take you very less than half that time.
+ So with that, I will say peace,
+ and I will share these notes off to the side
+ for anyone who wants to use them.
+ So with that, peace. Thanks for watching.

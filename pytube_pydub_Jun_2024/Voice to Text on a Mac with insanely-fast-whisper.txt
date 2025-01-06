@@ -1,32 +1,52 @@
-Nice video, thanks, so I installed on a MacBook Pro M3 ...
+YouTube video to audio to text:
+
 pipx install insanely-fast-whisper
 PYTORCH_ENABLE_MPS_FALLBACK=1
 
 Since insanely-fast-whisper only does audio:
 1. do/find a youtube video about whatever, or read a book/chapter then:
 
-2. pip install pytube pydub
-from pytube import YouTube
-from pydub import AudioSegment
-video_url = "some_video_on_youtube_with_subtitles"
-yt = YouTube(video_url)
-audio_stream = yt.streams.filter(only_audio=True).first()
-audio_file = audio_stream.download(filename='audio')
-audio = AudioSegment.from_file(audio_file)
-audio.export("audio.mp3", format="mp3")
+2. pip install yt_dlp
+python -B cls_yt_audio.py ... works, even with Live videos
+import os
+from yt_dlp import YoutubeDL
+
+def download_audio_from_youtube(url, output_path='output_audio.mp3'):
+    ydl_opts = {
+        'format': 'bestaudio/best',
+        'outtmpl': 'temp_audio.%(ext)s',
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',
+            'preferredcodec': 'mp3',
+            'preferredquality': '192',
+        }],
+        'postprocessor_args': [
+            '-ar', '16000'
+        ],
+        'prefer_ffmpeg': True,
+    }
+    with YoutubeDL(ydl_opts) as ydl:
+        ydl.download([url])
+    os.rename('temp_audio.mp3', output_path)
+    return output_path
+
+print("Downloading audio from YouTube...")
+youtube_url = "https://www.youtube.com/live/5Ov_D8DjBks"
+audio_file_path = download_audio_from_youtube(youtube_url)
+
 
 3. which yields: audio.mp3 so then do:
-insanely-fast-whisper --file-name audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
-... an 1+ hour audio (from the youtube video) took 4 mins 20 secs = wow!
+insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
 
 4. which yields: output.json so then do:
 python -B convert_output.py output.json -f txt -o .
 ... see:
 https://github.com/Vaibhavs10/insanely-fast-whisper/blob/main/convert_output.py
 
-5. yields: output.txt so the last step is:
+5. which yields: output.txt so the last step is:
 paragraphs, how?, so ChatGPT 4o gave me this:
-
+python -B transcript_paragraphs.py 
+... which uses output.txt to create formatted_output.txt
 import re
 import textwrap
 
@@ -61,5 +81,6 @@ with open('formatted_output.txt', 'w') as file:
     file.write(formatted_text)
 
 print("Formatted text with paragraphs and line wrapping has been saved to 'formatted_output.txt'.")
-... which is more readable, but not perfect.
+
+... which is more readable, but not perfect, but AI's can "read" it and summarize and give key takeaways
 

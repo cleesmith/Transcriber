@@ -1,511 +1,214 @@
-Okay, I'm live. Hello everyone. How are you all doing?
-
-Can you all hear me? Let's start with that. I've pinned today's Notion
-document in the live stream, live feed, and it's also already in the
-description for the video.
-
-And you'll notice it's a novel crafter link, but that'll just take you
-straight to the Notion document. We're just trying to tidy things up.
-So don't worry about that.
-
-We got you all good. But yeah, hello. So this is a slightly later
-timed stream and it's going to just be for the hour so we're going to
-try and cram more in but see how it goes and then maybe also be doing
-a stream later in the week kind of more appropriate for um those of
-you who are in like American time zones so it's gonna be a late night
-for me but um we're gonna do that um hopefully with a guest so keep
-your your ears eyes peeled everything peeled potatoes um for the
-announcement about that stream um but yes um morning afternoon evening
-everyone um and yeah let's get started so this is kind of the we we've
-spent a lot of time kind of preparing our novel um and going through
-all the different kind of um like kind of almost like pre-
-developmental edits like doing them before we've written the book
-using our novel kind of outline as context.
-
-But now we're gonna just dive in and start writing. And so this next
-batch of episodes in the series are going to go into kind of like how
-to use Novel Crafter to kind of, once you've got your plan to start
-writing. And then we're gonna look a little bit at the text
-replacement prompts in later sessions and kind of just start plugging
-through.
-
-But this session is on the first chapter beats. It's on how to kind of
-get those formatted and we've got some new prompts to share with y'all
-in the document. And also kind of the value of beginning to write
-yourself before going with the AI so like I will show you this because
-I was doing some testing like you know to make sure that this would
-work and it's crazy like it's really nice to see kind of the
-vindication of actually what your input and how it influences the AI.
-
-So yeah. Okay. So I've included on here some kind of helpful links.
-
-So there's the past, I think the first one is from the Red Riding Hood
-beats class. And that spoke about, we tested different styles of beats
-that you've seen in the short form video um and then there's the um
-I'm guessing the next one will be um the document for um the the the
-oh my goodness words words. Um, Cozy Mystery.
-
-Completely forgot what I did then. Yeah, so the Cozy Mystery. Um, and
-so you can look back at past lessons if you don't want to have to
-check out four hours worth of live streams.
-
-There's also a, um, document. The third document is the kind of script
-I used for one of the short form beats videos, if you prefer to read.
-And then we've, um, included a link to kind of any short form beats
-videos if you prefer to read and then we've included a link to kind of
-any novel crafter videos we've already done on beats okay um so that
-that's our kind of catch-up um and yeah I'll just get started in.
-
-Seems like there's a good amount of you here. So yeah, let's begin.
-Okay.
-
-First of all, I think is a thing that a lot of writers, like I know I
-had issues with this when I first started writing with AI because it
-wasn't how I thought when I wrote. But like, what is a beat? And
-essentially a beat is a short set of instructions that kind of detail
-what happens in like a single moment of a story.
-
-So it's like kind of like a summary but depending on the type of beat
-it can encompass other stuff. But think of it as like a summary, like
-a very like micro detailed like you this is the telling not showing of
-uh writing the beat like you're just telling what happens and then you
-pop it into prose later on so we're gonna have a brief interlude
-reverse engineering beats so I like to think about like my writing and
-well kind of when I was making the fine tunes I noticed like we
-noticed in general that there was um a difference in the quality of
-output depending on whether we wrote our own beats or if we got the AI
-to summarize the prose to make a beat um I think that's because often
-we summarize things a lot more concisely because we have a filter of
-what we believe is important. So I've included this kind of 400-ish
-word chunk of prose that I've written as like the first beat for this
-story and then in the next paragraph or the next like drop down, I've
-included how I would summarize it if I was to like summarize it as a
-beat.
-
-And then we have here. So I use the general purpose prompt. I kind of
-basically gave the AI, you know, told it what a beat was.
-
-Please write a single story beat for the following prose. the
-following pros and then we can see here the different outputs from
-various models. There is a little bit crossed out in Sonnet because it
-got a detail wrong but I thought I wanted to include it so that you
-could see kind of where it had not quite summarized but all of them
-have done a good job they're just a lot longer so it's kind of it's a
-lot more telly and so I kind of see that as a most like a guide for so
-if this is what it took the text for to then put as a summary it might
-be that to get prose nearer to what you want, you have to be a little
-bit more descriptive in your beats.
-
-But that's for more of your, if you want more control over your
-writing. If you kind of are more a pantser and you just want to see
-how things go, go ahead. Just put a short thing in and you'll find it
-really inspires your creativity.
-
-Okay. and like you'll you'll find it it really inspires your
-creativity okay um so yeah you can you can check all this out here um
-but how do we work out what our next beat is so kind of like how do we
-like take um the overall flow of beats and kind of get it to work
-because a lot of times like if you just ask GPT or Claude or whatever
-to just be like that you kind of like it'll come out kind of weird
-like it'll they will give you beats but it won't be they won't be
-meaty enough to kind of show of show everything that you personally
-would want to encompass in a chapter. So I kind of like, when I make
-my beats I tend to have an idea of how I want a scene to play out
-because I'm quite a heavy plotter and so, however, I'll tweak as I go.
-
-But Corey this week has been doing some amazing work making us a new
-prompt so I'm really excited to kind of like debut it here and there's
-so if you want to copy it you can copy from here go on to prompts then
-click new and create from clipboard. And that string of letters is
-basically like a shorthand way of doing the prompt with all the
-models. So you'll keep all the models that he has selected and all the
-text in there.
-
-So everything is like duplicated. So it's a brilliant way of sharing
-your prompts with other people. everything is like duplicated.
-
-So it's a brilliant way of sharing your prompts with other people.
-Okay, oh, Jean-Luc says that Sonnet's been behaving strangely on
-occasion. Yeah, I've seen that like a few times like with different
-prompts.
-
-It's not been wowing me as much as it has in the past, which kind of
-makes me wonder, have we got a Claude 2.1 scenario? Hopefully not, but
-we'll see. So yeah, so Corey has now written a nice little bit for us
-which goes hand-in-hand with the prompt.
-
-So if you've... I don't know if you you've heard of the the scene
-sequel method. let me so yeah so the scene sequel are two types of
-written passages used by authors to advance the plot in a story so
-scenes propel it forward and sequels are kind of like a reaction um I
-like to I like that and I kind of like it always reminds me of that
-when I read this progression that Corey has kind of has um developed
-for us um hey Joe uh so we have a character has a goal, the goal leads
-to a conflict, the conflict leads to an outcome, either good or bad,
-then there is a reaction to that, the reaction leads to a dilemma and
-then that dilemma leads to a decision which then leads to a further
-goal and then it keeps going.
-
-So this could be split over multiple chapters, especially if like, I
-don't know if it's like, you could have like as a longer form or if it
-was a fight scene, you might have multiple of these within a chapter.
-And that's kind of like up to you for, it's up to you to kind of
-determine what pacing you want. However, using this is really good for
-getting a good start with AI.
-
-We've also trying to kind of fix the tie up. We've included a little
-bit extra in the prompt that gives kind of like a prompt for the AI to
-kind of add a little bit of a cliffy, a cliffhanger on the end of the
-chapter so if we go into uh version five so you're a helpful expert
-plot outline assistant um whenever you're given a scene or chapter
-summary develop a list of detailed scene beats, don't be vague, write
-out specific ideas. So we've got this that we were just talking about,
-we then have the random cliffhanger, so the AI will choose the random
-cliffhanger which kind of also adds a bit of surprise for you but you
-can also use this you could then ask as a follow-up question give me
-five more cliffhangers that I could use.
-
-You don't have to go with what the AI is saying it's just kind of
-adding a way to try and tie up the scene without it doing boitis. So
-yes let's see how this goes. So I've been playing around with this a
-little bit.
-
-So here we have, I've included the large kind of chapter summary that
-we were working on. This can all be found so we've got chapter summary
-and the detailed summary and then I also tried some abbreviated
-summaries with this and then we have some work so we've got different
-versions you can kind of read through these a little bit like in your
-own time it'll be quicker I think than me reading them out however you
-can kind of read through these a little bit like in your own time
-it'll be quicker I think than me reading them out however you can see
-that in the detailed summary there is much more so like Perrin so in
-the chapter summary there's a large amount on the fixing and the
-sabotage and then afterwards at the very end Perrin comes along with
-his sniffer dog, however in the abbreviated summary a lot of that is
-kind of skimmed over. And so the proportion of which Perrin and the
-sniffer dog are actually there becomes much more prominent.
-
-And so that reflects in the beats that are generated. So it's kind of
-worth keeping that in mind. Like when you give a chapter summary for
-beats to be made, pace it in the way that you would pace the chapter.
-
-Like if something's only gonna happen at the end, don't mention it
-loads because otherwise, because the AI doesn't know that's what
-you're thinking. Oh yeah. And I kind of like how, depending on how
-much different detail you put in, there very much is a different
-emphasis that the AI thinks of the conflicts so here in this one with
-the the detailed summary it takes the conflict as the uh Delilah's
-impatience during the broadcast whereas in the shorter summary where
-it's kind of very quickly glossed over, the conflict is finding the
-earring and a clue to the saboteur.
-
-So now I would probably do something that's in between, like I
-probably wouldn't pick either myself. However, it's interesting to see
-kind of that you have all these different iterations and you can just
-click retry or please go again or just start another conversation and
-it will give you a lot of options. So what I'm gonna do now is I've
-started working on kit bashing, I think I, because I was testing out
-the prompts, I had about 10 different versions of this so I've started
-work on kit bashing these as I'm gonna go I've been doing it in the
-right interface and then I've got a snippet as well with some of the
-bits that I need to put in so I'm going to work on that for a little
-bit and then we're gonna go on to actually using the beats and doing
-two sample chapters so one will use um my pros at the beginning and
-one will use AI generated pros at the beginning and then I think we're
-going to do like a compare and contrast so if there's definitely some
-like insatiable curiosity that in all these summaries has very much
-become like a um aism um Delilah quickly recognises the cut wires and
-the deliberate nature of the sabotage.
-
-I'm going to say and concludes sabotage. Mainly because, like of
-course it's sabotage um mainly because like of course it's sabotage um
-by curiosity she opens sabotage the uh not the wires um i guess the
-power in the and then I've added a location for this. I had an acronym
-and I cannot remember what it is.
-
-Infrastructure hubs. And PDAC stands for power distribution and
-control center and so that's kind of like the the main where how to
-divert the power to different areas of the city I'm sorry driven by
-curiosity finding the source of the smell. It opens up the panel.
-
-I'm going to say creating a lull as the clanking of daily life stops.
-Delilah however uses the opportunity to search for a snack in her
-pocket, irritated at the enforced downtime and before she can take a
-bite the lights flicker back on restoring yeah sorry from a distance
-calls out to Lila you I back to test good hand and she reluctantly
-gets back look Who's quote? you like some of these beats because
-they're AI generated they are a little bit more worthy than I'd like
-so I'll probably cut them down a little bit more but I'm kind of
-curious to see how it goes as well I mean I mean yeah although I
-suppose that would be a good chance to and how they impact on this
-city city.
-
-Well, it was efficiently and you back to these she's thinking about
-the sub touch okay um Picking away her tools into her belt, Delilah
-realizes that the bolt wasn't a... that fell wasn't a bolt, it was
-during pockets a bolt falls and okay Okay. Or she and or she can look
-at the earring.
-
-the earring the cable securing Delilah around always pulls her back
-towards the entrance It goes to take a closer look at the earring that
-she can see. But before she can inspect it, pockets. um pockets um
-Then um Hmm emerging from the tunnel killer encounter Thank you.
-
-you here's him talking and lines that the man's name is Perrin. I'm
-going to go ahead and do that. Uneasily if then I'm making up an Eve
-And and lets her go with a wave of his the earring again and
-recognizes the engraving on the gold on the silver metal it belongs to
-her sister and then that like is the like the conclusion of the first
-chapter I think okay so then I want to make sure that I kitbash this
-little bit in you you you you you you you you you Okay, I think I'm
-fairly happy with that.
-
-Let me, so I pressed control A twice, because if you do control A
-once, it'll just go over a paragraph. Whereas if you do it twice, it
-will do the entire chapter. So I will put this here for you um my plan
-i'm actually just gonna pop that in here um because i'm not gonna so
-usually so a lot of the times you could have like your scene beats
-here um in your your scene summary however it's not going to access
-that so i like to um i will end up putting them here however we're
-going to do an experiment so we've got our two things uh so we're
-gonna have my bad can i rename subtitle um this is the one with kate
-prose um to start and then this is the one uh i guess okay prose and
-what i will do as well is to ensure that the previous chapter doesn't
-influence this chapter I will switch their order as we go along but
-I'm just gonna so to do the shortcut I'm doing uh shift and then the
-little line slash backward dash and then press space and it comes up
-i'm just creating these lines as well because if you don't um the
-beats end up being next to each other and i don't aesthetically like
-that for my mind um i prefer there to be a space okay so all this
-first for the the Kate prose this first scene beat hasn't quite
-finished as you can see like we end up with her finding the sabotage
-but this bit hasn't happened yet so I'm going to put that this bit at
-the top and then I will add a new scene beat to include that and some
-of the next and this next bit but before we continue I will also show
-you the so the I use I'm I've got my my current, you can copy here.
-
-It's a slightly adapted version of the one from Space, which I've
-included on here. And there is the prose style guide, which I've put
-as Delilah's scenes are succinct, filled with attitude and casual
-comments on what she sees. While she uses proper grammar, scenes from
-her perspective are conversational and her running commentary is
-forever on the move um my prompt as well current writing prompt um
-includes the genre and the theme and then also um some little bits on
-like avoiding certain stuff so we'll see how well that works.
-
-Before I begin, does anyone have any questions? Where are my A.I.isms
-list. Rose Style Guide.
-
-My theme. These are both global entries. And I think I will start with
-the Kate prose version.
-
-See how it goes. I also did some character prep. some different bits
-about the buildings and the characters if you wanted to reference them
-um I was going to use sonnet but if that's been playing up recently...
-
-Still go Sonnet. We'll see how Sonnet does. I like Sonnet.
-
-I mean I like Opus better but money. Let's go, current writing prompt.
-We can try Sonnet and then also try Opus maybe and not Opus, 4.0, see
-how that goes for mimicking style.
-
-So things I'm looking for here are how well it continues on from the
-previous beat, kind of what I feel the, how I feel the voice is, and
-if it's, yeah, followed the beat itself. I'm gonna click apply. Okay,
-if it's acting up more in chat than prose, that's fine.
-
-Brilliant. So we've got before she can delve deeper, the overhead
-lights flicker off, signalling the start of the daily Archon's
-broadcast. Delilah grumbles about the inconvenience, annoyed at the
-interruption.
-
-The broadcast compels all the workers to cease their activities and
-listen intently, creating a lull as the yadda yadda, she looks for a
-snack, the lights flicker back on. Okay so I will... let's see, so the
-site before Delilah didn't fill her with much hope.
-
-The base of the panel was a molten mess, smoking wires poking out
-plastic gunk. She sniffed cautiously. Whilst lack of ventilation hit
-the exact time of sabotage, the damage didn't feel old.
-
-She felt the edges of the casing, finding the plastic supple to the
-touch and still warm. The overhead lights flickered, plunging Delilah
-into darkness. She froze, hands still resting on the melted panel as
-the familiar droning voice of the Archon crackled through unseen
-speakers.
-
-Blessed are those who walk the path of righteousness. I feel like
-that's probably Archon, um, the title filling in that so delilah
-rolled her eyes as if that pretentious windbag knew anything about
-being righteous she fumbled in her pocket fingers closing around stale
-protein bar um as the arkans platitudes washed over her ripping it
-open with her teeth she She took a bite, the dry crumbs sticking in
-her throat. For a few blessed moments, the only sounds were the
-Archon's muffled ramblings and her own chewing.
-
-No clanging machinery, no shouts from overseas, just blissful quiet.
-Then the lights blinked back on, harsh and unforgiving. Delilah!
-
-Zora's shrill voice shattered the calm. Have you found anything yet?
-Delilah swallowed hard, the protein bar turning to sawdust in her
-mouth, back to the grind.
-
-She peered closer at the ruined circuitry, prodding gingerly at the
-still-worn plastic. Fresh damage, no question, but who would sabotage
-the power grid and why? A dozen potential culprits sprang to mind,
-rebels and disgruntled workers and even bored kids looking for kicks,
-but none of the usual suspects fit.
-
-This was too precise, too surgical. No wanton destruction, just a
-strategic strike to cripple the system. Nicodemus's words from a few
-nights ago echoed in her mind.
-
-There are bigger players in this game than you realise, girl. People
-with plans that stretch back decades, maybe centuries. At the time she
-dismissed it as the ravings of a paranoid old man, but now?
-
-Delilah's gaze drifted up to the scorched panel, taking in the melted
-components and frayed wiring. This wasn't some random act of
-vandalism. This was a calculated move in a much larger game.
-
-Her fingers tightened around the power cable as a shiver ran down her
-spine. Take a drink. Whatever was happening here, she was a mere pawn.
-
-One of the real players wouldn't hesitate to sacrifice. Delilah,
-Zora's voice cut through her thoughts, much more insistent now. What's
-the prognosis?
-
-Delilah took a breath, shoving aside her unease, as she always did,
-one problem at a time. It's going to take some work, she called back,
-already reaching for her tools, but I'll have it sorted. For now, at
-least.
-
-But as she set to work repairing the latest damage, she couldn't...
-Okay, so this last paragraph um just get rid of like that's all 99% of
-the time with AI like the issue with AI wrapping things up is it's
-kind of trained in a question answer format so imagine if you were
-asking for a recipe and the recipe cut out mid like your cake being in
-the oven and you didn't know how long you had to leave it in for. That
-wouldn't be great and so it's kind of like I feel like every time
-we're asking it to cut off early it's kind of trying to go against its
-will.
-
-However if you a um let's let me just try this again with my um this
-is with fine-tune prompt i've done where i've fine-tuned the model to
-answer not completely so i think this will will kind of just show how
-different it is. Yeah, so you can see here it's finished mid kind of
-broadcast as it were. I will put this into the document for you all
-and then we're going to do the where the AI has done both beats and
-we'll kind of do a compare contrast that goes okay so then what I will
-do to ensure that it doesn't mess anything up I'm sticking this at the
-front so that means there's no way that it's reading because it's not
-reading back so go back into the ordinary world up here um so then we
-go current writing pros on it you okay so I'm gonna put the pros here
-and so you can kind of compare the two versions.
-
-I kind of like to know, like not gonna be offended at all, is there
-a... Do you have a preference at all? Like, you know, it'd be
-interesting to know.
-
-I kind of feel like my prose style has helped with this um i'm just
-gonna let's just see how different the pros is without the style guide
-you okay interesting I'm certain that we put the pro style guide back
-so I mean obviously this paragraph is just a thing the style guide has
-definitely made a difference I think whatever causes reek it couldn't
-good I do like how Sonnet brings up different facts from the past.
-Yeah, I don't like Dijon Luke. I don't like that it doesn't have any
-especially because it does I think it doesn't mention it in that yeah
-Okay so I'm just going to get rid of the last paragraph again and I'm
-going to generate the next section.
-
-section Of course it's kind of then started repeating things Okay, it
-has got some dialogue that's nice now I feel like... There's some
-interesting dialogue. But...
-
-It's kind of missing something. You know, when you kind of like...
-Like, also, she's in a tunnel.
-
-She ain't seeing any faces. So... There's...
-
-Yeah. I mean, I don't know what you guys think, um... But I...
-
-I prefer the prose that came out here and then I do for this second
-one what do you guys think? So I think in the same vein, I might so
-I'm going to archive this original scene and then go to this new one
-back to my original and I'm going to edit this and then continue going
-through. So we've got 15 minutes so I'm gonna see what I can get done
-in 15 minutes.
-
-Do any of you have any questions about the stuff that we've done so
-far today? Because I can answer them as I'm as I'm doing this if you
-want me to. So this prompt technically asks for a good ratio of like
-at least 30% dialogue.
-
-So it's not exactly like it should, you know. It shouldn't be doing
-this. oh yeah of course this was the the i was so confused then for a
-moment.
-
-That's the Kate Fine tune one. So to a blink of an eye, who asks, do
-you use rephrase prompts at this stage to improve the output and or
-add dialogue? So currently I do a mix um my favorite um rephrase
-prompt would be a um my fine-tuned one however that's going to be next
-week's topic so we're going to go through that more next week but we
-are going to cover that um I kind of like...
-
-I use a mix. I kind of sometimes forget about using prompts for the
-the rephrasing. So, I'm going to go ahead and do that.
-
-until the Oh so for Nakua to create the box for kitbashing if you go
-onto your like side panel snippet you can open up a snippet and then
-press this pin icon at the top and then that pins it to the side and
-then I tend to minimize the sidebar. I just should have untangled the
-wires. plastic bird punny I feel like that's good because it kind of
-introduces the town or the like the city as well.
-
-Bless her those who walk by. As if that pretentious windbag knew
-anything about being righteous. She fumbled in her pockets, fingers
-closing around a stale protein bar as the archon's platitudes um
-washed over ripping it over with a tea you okay so some bits i'm going
-to have to you so some bits I'm gonna have to remove like obviously
-Thank you.
-
-you who wants Okay so then that's again implying starting to imply the
-cold and it wasn't it wasn't precise or surgical I would get rid of
-some of this which is fine Thank you. So pretty as you Thank you. you
-it's interesting how um you it's interesting how or into the packaging
-with a teeth up in both like ripping it from the teeth like it seems
-to have an idea of what it wants Thank you.
-
-Mm-hmm. Mm-hmm. Um...
-
-you ah okay that will do okay let's let's do one more time and get the
-next I should have included a before and after I what do I have
-amazing pros before pros after edits then if you want to you can see
-like what I've edited well like what I've edited um cool um All right.
-Writing. current writing yeah and a final call for questions if anyone
-has them um if not i will do this little bit and then we can head off
-but next week um i'm definitely going to be doing some some work on
-like um kind of taking a chapter that we've generated and using um
-different prompts so like if anyone has any prompts that they want to
-share in the discord community that would also be really cool and i
-can try some of them out kind of just showcase what we have with um
-with editing and kind of adding in say if we wanted to do like a micro
-beat in the middle of there to add in a bit extra we could do that
-Thank you.
-
-Thank you. Thank you. Okay.
-
-Thank you. I think, I'm not meant to know, it's Kiris. Thank you.
-
-you and I'll work that out later okay it's um five o'clock now so I
-will head off but thank you all for coming I hope you enjoyed it um I
-look forward to the stream that might be happening later this week And
-of course for Saturday's stream where we will go over. I think what I
-will do is finish this chapter and then Like in my time, yeah yeah
-we're entering over time uh but yeah we'll finish this chapter and
-then i will like off camera and then i'll come back with it kind of
-like in a preliminary state and do like some edits and some like
-different techniques that we can do and like show off different novel
-crafter prompts um and yeah it'll be it'll be a bit of fun i think um
-so yeah i hope you all enjoyed yourself um and uh enjoy your breakfast
-lunch dinner uh whatever you end up eating um yeah bye.
+Okay, let's see. Chris just did a quick walkthrough of this deck and
+we ended up, I bought one, he bought one, he bought one for me, I
+bought one for him. Oh, the irony.
+
+Anyways, this has really gotten me thinking about these archetypes and
+personal archetypes, archetypes for our own archetypes. I mean,
+there's the Jungian archetypes for our own archetypes. I mean there's
+the Jungian archetypes, which I'm not sure what they are, but there's
+also personal ones.
+
+He talks about that in this book, about developing your own
+archetypes. Now this is a beautiful deck, beautiful, beautiful deck,
+beautiful, interesting to read and beautifully done. Now I'm going to
+show you his archetypes very quickly.
+
+And he explains what they are. And then I'm going to show you
+something that I thought of. I just went for a walk and, well this
+isn't working too well.
+
+Is this stuck in? How's that? Oh that's bad.
+
+So I'm just going to show you the archetypes. They're kind of mixed
+up. They're not in order, but I don't think it matters matters you get
+to do collage on if you want to make your own well he encourages you
+to make your own so we'll just go through real fast not everyone
+watches Chris's channel and not a lot of my people don't watch his
+channel so I just want to show you this really fast Nick VanTek is the
+one that wrote Sabine and Griffin the series so he's he's he's an
+artist by training and then he he became a writer as he as he got
+older so beautiful cards this is put out by Llewellyn, Awakener,
+Midwife these are not Oracle cards he makes a point that these are
+archetypes these are things Wakener, Midwife.
+
+These are not oracle cards. He makes a point of that. These are
+archetypes.
+
+These are things you call upon when you're in difficult times or when
+you're in happy times. It's, in a way, your inner resources. This is
+what you're in.
+
+These are his inner resources. And some of them would be common to all
+of us. Maybe not the fixture, but in some way or other.
+
+Starclimber. Warrior. Angel.
+
+all of us maybe not the picture but in some way or other star climber
+warrior angel healer the hypocrite, the wolf, the siren, the jester,
+the demon, the reflector, the dreamer, the The Duende. The Alchemist.
+This is the first card.
+
+It's all done alphabetical so the book you can find what their
+meanings are in the book. He also has allegories or stories with each
+one of them. Magician.
+
+Anima Animus, Mooncat, Eccentric, Falcon, Fatalist, Grace, Mobius,
+Wanderer, Greenman, the Observer. That's on the cover. That's cool.
+
+They're all wonderful pictures. The Strategist. The Survivor.
+
+The Metamorph. Put that aside. The Illuminator.
+
+The Trickster. The Innocent. The Inventor.
+
+The Poet. The inventor. The poet.
+
+The intimate. The sage. The arbiter.
+
+What a gorgeous picture that is. The shadow diver. Chris read about
+this one.
+
+It's really interesting. And the Lion. Now, these are out of order.
+
+They're usually alphabetical. So that's the deck. Now, I have
+meditated for many years.
+
+Over the years, I've meditated. Sometimes I'm into it. Sometimes I
+fall out of it.
+
+But I was telling Chris about I do have a metamorph. And that's when
+it's half of one thing and half of another. And this metaphor, I have
+a metaphor, metaphor, fourth, metaphor, in my arsenal of sparse
+archetypes, and that's a squirrel with a Robert De Niro head.
+
+I was telling Chris about how I came up with that. It came to me,
+actually, and how it has helped me in my life. And it's about facing
+fears.
+
+And for me, it's a squirrel with a Robert De Niro head. I can't
+explain these things. These are just archetypes, you know.
+
+But that's the same archetype as he picked. So the thing is, I was
+walking today, and I had an idea. He has exercises in his book to come
+up with your own archetypes that you can use, that you can have at
+your disposal during your life in the real world.
+
+And because of my experience with my squirrel, I definitely felt like
+it has definitely improved my life, that squirrel. Looks like hair,
+but that's a pencil knife. So I was in the barn, and he has some
+exercises to develop your own archetypes, and I think I'm going to do
+it in collaging, but then I started looking around the barn and
+thinking about objects and either how they could be an archetype for
+me or how they could help me with whatever I need help with, which
+then may lead me to developing the archetype.
+
+So I'm going to show you what I have. The first one I saw when I was
+walking in the barn was this one, this young lady here. This is
+obviously a ragdoll, a ragdoll right here.
+
+I don't know if you see that. I know she fits in this way. A ragdoll.
+
+And when I was walking around the barn, I say, I need something for
+creativity. I need a creative archetype. And my eyes fell on her, and
+I said my god this is her you know with these funny little pants she
+wears on and a great smile on her face and love and that just screams
+creativity to me so there's my creative archetype now I'm not sure if
+she'll stay that way but this is at least opening the door and what
+I'm gonna do I'm gonna take a picture of her and he suggests working
+in black and white to start out with so I'm gonna take a picture of
+her and make some copies not they're gonna she's gonna be shrunk down
+to size and I'm gonna use her in some of my collages so that'll be fun
+so that's my creative archetype possibly Quite dirty from the barn.
+
+Then I have... These are my prayer beads I made a long time ago. My
+meditation beads.
+
+And I love this necklace. Not necklace. It's just prayer beads that I
+made.
+
+And this is... This signifies meditation. But maybe it's reflection.
+
+I don't know. I'm not sure. But when I was thinking about objects that
+could either lead me to my archetype or be my archetype, because they
+can be objects as well, I thought of this.
+
+So this is my reflective or my learning archetype. I'm not sure, but
+it's definitely in the mix. So at first I didn't know what kind of
+archetypes I needed, and now I got all kinds of archetypes.
+
+This one is, it was found in my yard, and I don't know if Chris found
+it or someone else found it and gave it to me. It's very weathered and
+broken. It's a wooden piece, and I don't know, it was in my yard when
+someone was digging it up or doing mowing or something.
+
+I don't know, but it came into my house somehow, and it was from my
+yard outside here, the other house that I have. And I thought of this
+when I was walking. I said, oh, this is resilience.
+
+This is my resilience archetype, or maybe it will lead me to my
+resilience archetype. So that's that. And then one last one I'm going
+to use and this is a picture I did a long time ago and I can't
+remember the woman's name.
+
+I wrote it down here. It's in here I think. This is a mixed-media
+piece that I did quite a while ago.
+
+No this is not it. This is another, this is no good. The picture of
+the woman here is the woman, one of the women that died in that fire
+in New York City where all the women died at the turn of the century
+they were in the fabric the textile factory or and uh the whole thing
+burned down and like all these women died that were mostly immigrants
+and there's a picture of one of the ladies one of the young girls she
+had come to the United States I don't know a few days before she found
+a job right away because you know they they weren't even paid
+essentially and what they were paid I don't know what they were paid
+and she was only in the country for a few days and she died in the
+fire uh and I just thought that's I don't know what that is it's it's
+it could be ancestor or it could be an ancestor archetype or it could
+be a a grief I'm thinking some kind of working through grief or
+sadness kind of archetype that would work through it maybe.
+
+But I am going to use her, I think, in some kind of way in my stories,
+in my collages. I look at this collage now, it's so underdeveloped,
+but is still the colors are very nice so this is what I have for
+potential archetypes or if not like your archetypes themselves that
+will lead me to my archetypes so I'm really excited about this now the
+plan is to involve this with my art in other words I'm going to take
+photographs of these and cut them up and put them in collages. And
+then consider, you know, what I want to use them for.
+
+It's like the theme of the collage. So when I'm done, I'll have a
+beautiful deck like this. Just like his.
+
+Now it won't be like his, obviously, because it's a different kind
+of... But I mean, you know, do something that's a collage. I mean, his
+are all collages, so that'd be cool.
+
+So that's my current thinking about my next project. I finished up If
+Flowers Were Cake, and that's available now on Amazon. I'll put a link
+below if people are interested in buying the book.
+
+It comes in e-book and paperback and that's, I'm trying to get it in
+hardcover, but I don't know. I'm having problems with that. So I don't
+know.
+
+This, this thing here has been really interesting. This is really
+interesting. And he's very much, I mean, he doesn't say, he goes, this
+is not, you don't ask questions.
+
+It's not about asking questions. It's not about knowing about the
+future. It's about self-discovery more than anything else and
+discovering your own archetypes that you can then use in your everyday
+life.
+
+I don't know. I think it's really interesting, and I'm quite taken by
+it, and I hope to do some collages. And the collages that I'm going to
+be doing now in the future, because I finished the book, the one book,
+is I'm going to do them online.
+
+I do believe I'll work with them online and you know kind of give you
+my thoughts about what I'm doing and how why I'm doing it you know
+whatever so that is that I'm trying to bring all this stuff together I
+hope you found this interesting I think it's interesting but we'll see
+how long it lasts but I have I'm excited about this okay have a great
+day.

@@ -1,0 +1,26 @@
+1.
+(Transcriber) cleesmith:~$ python -B cls_yt_audio.py                          
+Downloading audio from YouTube...
+[youtube] Extracting URL: https://youtu.be/4DiTAOwhYwM
+[youtube] 4DiTAOwhYwM: Downloading webpage
+[youtube] 4DiTAOwhYwM: Downloading ios player API JSON
+[youtube] 4DiTAOwhYwM: Downloading web creator player API JSON
+[youtube] 4DiTAOwhYwM: Downloading m3u8 information
+[info] 4DiTAOwhYwM: Downloading 1 format(s): 251
+[download] Destination: temp_audio.webm
+[download] 100% of   90.95MiB in 00:00:17 at 5.30MiB/s
+[ExtractAudio] Destination: temp_audio.mp3
+Deleting original file temp_audio.webm (pass -k to keep)
+
+2.
+(Transcriber) cleesmith:~$ insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+🤗 Transcribing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:11:03
+Voila!✨ Your file has been transcribed go check it out over here 👉 output.json
+
+3.
+(Transcriber) cleesmith:~$ python -B convert_output.py output.json -f txt -o .
+
+4.
+(Transcriber) cleesmith:~$ python -B transcript_paragraphs.py 
+Formatted text with paragraphs and line wrapping has been saved to 'formatted_output.txt'.
