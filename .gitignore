@@ -6,6 +6,7 @@
 *.wav
 *.mp4
 *.mov
+cls*
 
 # macOS folder attributes:
 .DS_Store
