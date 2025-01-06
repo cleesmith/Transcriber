@@ -68,3 +68,5 @@ python -B transcript_paragraphs.py
 
 ## ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
 
+# Here's hoping that someday YouTube will wake up and just offer something like this as a part of their service.
+
