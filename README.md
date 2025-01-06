@@ -32,7 +32,7 @@ def download_audio_from_youtube(url, output_path='output_audio.mp3'):
     return output_path
 
 print("Downloading audio from YouTube...")
-#              ****** copy link here: *****************
+#              ****** COPY LINK HERE: *****************
 youtube_url = "https://www.youtube.com/live/5Ov_D8DjBks"
 #              ****************************************
 audio_file_path = download_audio_from_youtube(youtube_url)
