@@ -28,7 +28,7 @@ with open('output.txt', 'r') as file:
 
 formatted_text = add_paragraphs(transcribed_text, sentences_per_paragraph=3, line_width=70)
 
-with open('formatted_output.txt', 'w') as file:
+with open('output_formatted.txt', 'w') as file:
     file.write(formatted_text)
 
-print("Formatted text with paragraphs and line wrapping has been saved to 'formatted_output.txt'.")
+print("Formatted text with paragraphs and line wrapping has been saved to 'output_formatted.txt'.")

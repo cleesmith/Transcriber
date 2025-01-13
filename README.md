@@ -39,9 +39,11 @@ audio_file_path = download_audio_from_youtube(youtube_url)
 ```
 ... run:
 ```
+rm output*
+```
+```
 python -B cls_yt_audio.py
 ```
-
 
 ## 2. cls_yt_audio.py yields: audio.mp3 so then do:
 ```
@@ -63,7 +65,7 @@ paragraphs, how?, so ChatGPT 4o gave me this:
 ```
 python -B transcript_paragraphs.py 
 ```
-... which uses output.txt to create formatted_output.txt (paragraphs)
+... which uses output.txt to create output_formatted.txt (paragraphs)
 
 
 ## ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
