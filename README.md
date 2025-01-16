@@ -1,6 +1,9 @@
-# Transcribe any YouTube video, even Live ones or Short ones, into readable text.
+# Transcribe any YouTube video into readable text
+# even Live ones or Short ones
 
 > Given youtube's rules and regulations, of course.
+
+> Not everyone benefits nor enjoys giant talking heads with background music trying to influence us, we prefer our propaganda in words ---the old fashion way.
 
 ---
 
@@ -15,6 +18,11 @@ pip install yt_dlp
 ---
 
 # Run it in one go/step:
+clean up any previous stuff:
+```
+rm output*
+```
+note this may run for a while; like on a macbook pro m3 max an 1.5 hour video takes about 17 minutes:
 ```
 python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU 
 ```
@@ -88,8 +96,6 @@ python -B transcript_paragraphs.py
 ---
 
 > Here's hoping that someday YouTube will wake up and just offer something like this as a part of their service.
-
-> Not everyone benefits nor enjoys big talking heads with background music trying to influence us, we prefer our propaganda in words ---the old fashion way.
 
 ---
 
