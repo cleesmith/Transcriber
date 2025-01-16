@@ -21,14 +21,16 @@ clean up any previous stuff:
 ```
 rm output*
 ```
-note this may run for a while; like on a macbook pro m3 max an 1.5 hour video takes about 17 minutes:
+note the following may run for a while: 
+> like on a macbook pro m3 max, a 1.5 hour video takes about 17 minutes
 ```
 python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU 
 ```
 
 ---
 
-# or the multiple steps way:
+# Or transcribe a video in multiple steps:
+> coz it's the journey, not the destination
 
 ## 1. Since insanely-fast-whisper only does audio; copy link to a youtube video into:
 ```
