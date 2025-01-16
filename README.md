@@ -2,7 +2,7 @@
 
 > Please note youtube's rules and regulations, of course.
 
-> Not everyone benefits from, nor enjoys such *eye candy* as, giant talking heads with background music trying to influence us, we prefer our propaganda in words ---the old fashion way.
+> Not everyone benefits from, nor enjoys such *eye candy* as, giant talking heads with background music trying to influence us, we prefer our propaganda in words ---the old fashion way.<br>Well, some of us. 🙋🏽‍♂️
 
 ---
 
