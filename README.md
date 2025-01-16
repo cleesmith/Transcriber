@@ -1,5 +1,4 @@
-# Transcribe any YouTube video into readable text
-##         even Live ones or Short ones
+# Transcribe any YouTube video into readable text <br>    even Live ones or Short ones
 
 > Given youtube's rules and regulations, of course.
 
