@@ -22,7 +22,7 @@ clean up any previous stuff:
 rm output*
 ```
 note the following may run for a while: 
-> like on a macbook pro m3 max, a 1.5 hour video takes about 17 minutes; so pack a lunch as 'insanely-fast' is a bit slow and may lead to insanity
+> like on a macbook pro m3 max, a 1.5 hour video takes about 17 minutes; so pack a lunch as 'insanely-fast' is a bit slow and may lead to insanity which may help you perceive it as "insanely-fast" 🤔
 
 ```
 python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU 
