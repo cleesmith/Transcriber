@@ -93,7 +93,7 @@ python -B transcript_paragraphs.py
 ... which uses output.txt to create output_formatted.txt (paragraphs)
 
 ### ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
-> and the opposite of giant talking heads rambling on and on 🤓
+> which is so not giant talking heads rambling on and on for over an hour 🤓
 
 ---
 
