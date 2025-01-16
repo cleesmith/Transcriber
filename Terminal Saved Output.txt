@@ -1,24 +1,149 @@
-(Transcriber) cleesmith:~$ python -B cls_yt_audio.py
-Downloading audio from YouTube...
-[youtube] Extracting URL: https://www.youtube.com/live/anLJuI_2_VY?si=3qzWNXMelv9xUXzd
-[youtube] anLJuI_2_VY: Downloading webpage
-[youtube] anLJuI_2_VY: Downloading ios player API JSON
-[youtube] anLJuI_2_VY: Downloading mweb player API JSON
-[youtube] anLJuI_2_VY: Downloading m3u8 information
-[info] anLJuI_2_VY: Downloading 1 format(s): 251
-[download] Destination: temp_audio.webm
-[download] 100% of   43.50MiB in 00:00:09 at 4.40MiB/s
-[ExtractAudio] Destination: temp_audio.mp3
-Deleting original file temp_audio.webm (pass -k to keep)
+(Transcriber) cleesmith:~$ python -B prompt_decode.py                                               
+{"type":"workshop-chat","name":"Reverse Outline","messages":[{"type":"system","text":"Please analyze the provided chapter using the following steps:\n\nStep 1: Create Basic Structure Outline\n1. Break the chapter into major sections\n2. For each section, identify:\n   - Setting and time frame\n   - Key events/plot points\n   - Characters present\n   - Main conflicts or tensions\n   - Purpose/function in the overall chapter\n\nStep 2: Analyze Narrative Elements\n1. Character arcs and development\n   - How each character changes within the chapter\n   - Key relationships and dynamics\n   - Character motivations and conflicts\n\n2. Plot threads\n   - Main plot developments\n   - Subplots introduced\n   - Setup elements for future chapters\n   - Unresolved questions or mysteries\n\n3. Themes and motifs\n   - Recurring ideas or symbols\n   - Thematic statements or implications\n   - Emotional resonance\n\n4. Pacing and structure\n   - Scene transitions\n   - Tension arc\n   - Information revelation timing\n   - Balance of action vs. reflection\n\nStep 3: Generate Improvement Suggestions\nBased on the analysis, provide specific recommendations in these categories:\n\n1. Structure and Flow\n   - Scene order and transitions\n   - Pacing adjustments\n   - Information distribution\n   - Tension management\n\n2. Character Development\n   - Motivation clarity\n   - Relationship dynamics\n   - Character voice consistency\n   - Emotional depth\n\n3. Plot and Conflict\n   - Stakes clarity\n   - Conflict escalation\n   - Setup and payoff\n   - Subplot integration\n\n4. Technical Elements\n   - Description balance\n   - Dialogue effectiveness\n   - World-building details\n   - Sensory elements\n\nFor each suggestion:\n- Identify the specific issue\n- Explain why it needs improvement\n- Provide a concrete example of how to address it\n- Note potential impact on other elements\n\nStep 4: Prioritize Revisions\n1. Rate each suggestion by:\n   - Impact on story\n   - Ease of implementation\n   - Ripple effects on other chapters\n\n2. Create a prioritized revision plan with:\n   - Top 3-5 critical changes\n   - Secondary improvements\n   - Optional enhancements\n\nPlease proceed with this analysis and provide your findings in a clear, organized format.\n\n---\n\nExample Suggestion Format:\n\nISSUE: [Brief description of the problem]\nWHY IT MATTERS: [Impact on reader experience or story effectiveness]\nCURRENT VERSION: [Short quote or summary of current text]\nSUGGESTED APPROACH: [Specific ways to revise]\nEXPECTED OUTCOME: [How this will improve the story]\n\nPlease format your response using Markdown, and avoid using HTML or XML tags. Remember, your feedback is crucial to the author's success, so be thorough, insightful, and supportive in your evaluation.\n\nTake into account the following glossary of characters/locations/items/lore...:\n{context.codex}\n\n{#if(novel.hasSeries)}\n  The author is currently working on a series called \"{series.title}\".\n  {#if(series.description)}\n    Here is the description of the series:\n    <seriesDescription>{series.description}</seriesDescription>\n  {#endif}\n{#endif}\n\nTake into account the following glossary of characters/locations/items/lore...:\n{context.codex}\n\n{#if(args.includeAllText)}\n  {#if(args.includeOutline)}\n    Here is the outline of the book that the author is currently working on:\n    <outline>{novel.outline}</outline>\n  {#endif}\n\n  Here is the full text of the book that the author is currently working on:\n  <fullText>{novel.fullText}</fullText>\n{#else}\n  {#if(args.includeOutline)}\n    Here is the outline of the book that the author is currently working on:\n    <outline>{novel.outline}</outline>\n  {#elseif(args.scene)}\n    The story summary so far:\n    <storySoFar>{context.storySoFar}</storySoFar>\n  {#endif}\n{#endif}\n\n{#if(args.scene)}\n  {#if(args.includeAllText)}\n    The author is currently working on scene called \"{scene.title}\".\n  {#else}\n    The full text of the scene ({scene.title}) the author is working on right now:\n    <currentScene>{scene.content}</currentScene>\n  {#endif}\n{#endif}"}],"models":[{"id":"anthropic/claude-3.5-sonnet-20240620:beta","name":"Claude 3.5 Sonnet 20240620 (Beta)"},{"id":"google/gemini-pro-1.5","name":"Gemini Pro 1.5"},{"id":"openai/gpt-4o-2024-11-20","name":"GPT-4o 2024 11 20"},{"id":"openai/o1-mini-2024-09-12","name":""}]}
+Workshop Chat Configuration Summary
+================================
 
-(Transcriber) cleesmith:~$ insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-🤗 Transcribing... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:04:41
-Voila!✨ Your file has been transcribed go check it out over here 👉 output.json
+Workshop Type: workshop-chat
+Workshop Name: Reverse Outline
 
-(Transcriber) cleesmith:~$ python -B convert_output.py output.json -f txt -o .
+System Messages:
+---------------
+Please analyze the provided chapter using the following steps:
 
-(Transcriber) cleesmith:~$ python -B transcript_paragraphs.py 
-Formatted text with paragraphs and line wrapping has been saved to 'output_formatted.txt'.
+Step 1: Create Basic Structure Outline
+1. Break the chapter into major sections
+2. For each section, identify:
+   - Setting and time frame
+   - Key events/plot points
+   - Characters present
+   - Main conflicts or tensions
+   - Purpose/function in the overall chapter
 
+Step 2: Analyze Narrative Elements
+1. Character arcs and development
+   - How each character changes within the chapter
+   - Key relationships and dynamics
+   - Character motivations and conflicts
 
+2. Plot threads
+   - Main plot developments
+   - Subplots introduced
+   - Setup elements for future chapters
+   - Unresolved questions or mysteries
+
+3. Themes and motifs
+   - Recurring ideas or symbols
+   - Thematic statements or implications
+   - Emotional resonance
+
+4. Pacing and structure
+   - Scene transitions
+   - Tension arc
+   - Information revelation timing
+   - Balance of action vs. reflection
+
+Step 3: Generate Improvement Suggestions
+Based on the analysis, provide specific recommendations in these categories:
+
+1. Structure and Flow
+   - Scene order and transitions
+   - Pacing adjustments
+   - Information distribution
+   - Tension management
+
+2. Character Development
+   - Motivation clarity
+   - Relationship dynamics
+   - Character voice consistency
+   - Emotional depth
+
+3. Plot and Conflict
+   - Stakes clarity
+   - Conflict escalation
+   - Setup and payoff
+   - Subplot integration
+
+4. Technical Elements
+   - Description balance
+   - Dialogue effectiveness
+   - World-building details
+   - Sensory elements
+
+For each suggestion:
+- Identify the specific issue
+- Explain why it needs improvement
+- Provide a concrete example of how to address it
+- Note potential impact on other elements
+
+Step 4: Prioritize Revisions
+1. Rate each suggestion by:
+   - Impact on story
+   - Ease of implementation
+   - Ripple effects on other chapters
+
+2. Create a prioritized revision plan with:
+   - Top 3-5 critical changes
+   - Secondary improvements
+   - Optional enhancements
+
+Please proceed with this analysis and provide your findings in a clear, organized format.
+
+---
+
+Example Suggestion Format:
+
+ISSUE: [Brief description of the problem]
+WHY IT MATTERS: [Impact on reader experience or story effectiveness]
+CURRENT VERSION: [Short quote or summary of current text]
+SUGGESTED APPROACH: [Specific ways to revise]
+EXPECTED OUTCOME: [How this will improve the story]
+
+Please format your response using Markdown, and avoid using HTML or XML tags. Remember, your feedback is crucial to the author's success, so be thorough, insightful, and supportive in your evaluation.
+
+Take into account the following glossary of characters/locations/items/lore...:
+{context.codex}
+
+{#if(novel.hasSeries)}
+  The author is currently working on a series called "{series.title}".
+  {#if(series.description)}
+    Here is the description of the series:
+    <seriesDescription>{series.description}</seriesDescription>
+  {#endif}
+{#endif}
+
+Take into account the following glossary of characters/locations/items/lore...:
+{context.codex}
+
+{#if(args.includeAllText)}
+  {#if(args.includeOutline)}
+    Here is the outline of the book that the author is currently working on:
+    <outline>{novel.outline}</outline>
+  {#endif}
+
+Here is the full text of the book that the author is currently working on:
+  <fullText>{novel.fullText}</fullText>
+{#else}
+  {#if(args.includeOutline)}
+    Here is the outline of the book that the author is currently working on:
+    <outline>{novel.outline}</outline>
+  {#elseif(args.scene)}
+    The story summary so far:
+    <storySoFar>{context.storySoFar}</storySoFar>
+  {#endif}
+{#endif}
+
+{#if(args.scene)}
+  {#if(args.includeAllText)}
+    The author is currently working on scene called "{scene.title}".
+  {#else}
+    The full text of the scene ({scene.title}) the author is working on right now:
+    <currentScene>{scene.content}</currentScene>
+  {#endif}
+{#endif}
+
+Available Models:
+----------------
+- Claude 3.5 Sonnet 20240620 (Beta) (ID: anthropic/claude-3.5-sonnet-20240620:beta)
+- Gemini Pro 1.5 (ID: google/gemini-pro-1.5)
+- GPT-4o 2024 11 20 (ID: openai/gpt-4o-2024-11-20)
+-  (ID: openai/o1-mini-2024-09-12)
