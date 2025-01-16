@@ -29,6 +29,7 @@ python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU
 ```
 
 ---
+---
 
 # Or transcribe a video in multiple steps:
 > coz it's the journey, not the destination; right?
