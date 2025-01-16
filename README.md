@@ -1,4 +1,4 @@
-# Transcribe any YouTube video into readable text <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;even Live ones or Short ones
+# Transcribe any YouTube video into readable text <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;even Live ones or Short ones
 
 > Please note youtube's rules and regulations, of course.
 
@@ -12,11 +12,11 @@ pipx install insanely-fast-whisper
 export PYTORCH_ENABLE_MPS_FALLBACK=1
 pip install yt_dlp
 ```
-### Go research: *ffmpeg* and *ffprobe* to get those installed too.
+### Now, go research: *ffmpeg* and *ffprobe* to get those installed too.
 
 ---
 
-# Run it in one go/step:
+# Transcribe a video all in-one-go:
 clean up any previous stuff:
 ```
 rm output*
