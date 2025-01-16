@@ -31,7 +31,7 @@ python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU
 ---
 
 # Or transcribe a video in multiple steps:
-> coz it's the journey, not the destination
+> coz it's the journey, not the destination; right?
 
 ## 1. Since insanely-fast-whisper only does audio; copy link to a youtube video into:
 ```
@@ -97,7 +97,7 @@ python -B transcript_paragraphs.py
 
 ---
 
-> Here's hoping that someday YouTube will wake up and just offer something like this as a part of their service.
+> Here's hoping that someday YouTube will wake up and smell the AI, embrace the qubits, then just offer something like this as a part of their service.
 
 ---
 
