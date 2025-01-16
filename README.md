@@ -2,7 +2,7 @@
 
 > Given youtube's rules and regulations, of course.
 
---
+---
 
 Install:
 ```
@@ -12,14 +12,14 @@ pip install yt_dlp
 ```
 ### Go research: *ffmpeg* and *ffprobe* to get those installed too.
 
---
+---
 
 # Run it in one go/step:
 ```
 python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU 
 ```
 
---
+---
 
 # or the multiple steps way:
 
@@ -63,7 +63,7 @@ python -B cls_yt_audio.py
 
 ## 2. cls_yt_audio.py yields: audio.mp3 so then do:
 ```
-insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
+insanely-fast-whisper ---file-name output_audio.mp3 ---device-id mps ---model-name openai/whisper-large-v3 ---batch-size 4
 ```
 ... 2 hours of audio takes about 12 minutes on a MacBook Pro M3 Max
 
@@ -85,12 +85,12 @@ python -B transcript_paragraphs.py
 
 ### ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
 
---
+---
 
 > Here's hoping that someday YouTube will wake up and just offer something like this as a part of their service.
 
-> Not everyone benefits nor enjoys big talking heads with background music trying to influence us, we prefer our propaganda in words --the old fashion way.
+> Not everyone benefits nor enjoys big talking heads with background music trying to influence us, we prefer our propaganda in words ---the old fashion way.
 
---
+---
 
 
