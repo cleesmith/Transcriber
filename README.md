@@ -7,6 +7,7 @@ export PYTORCH_ENABLE_MPS_FALLBACK=1
 pip install yt_dlp
 ```
 
+
 ## 1. Since insanely-fast-whisper only does audio; copy link to a youtube video into:
 ```
 import os
