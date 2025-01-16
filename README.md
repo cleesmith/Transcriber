@@ -75,8 +75,7 @@ python -B cls_yt_audio.py
 ```
 insanely-fast-whisper ---file-name output_audio.mp3 ---device-id mps ---model-name openai/whisper-large-v3 ---batch-size 4
 ```
-... 2 hours of audio takes about 12 minutes on a MacBook Pro M3 Max
-
+> get coffee, walk the dog, mow the yard, sweep up around the ashram; kill time ⏳
 
 ## 3. step 3. yields: output.json so then do:
 ```
@@ -98,7 +97,7 @@ python -B transcript_paragraphs.py
 
 ---
 
-> Here's hoping that someday YouTube will wake up and smell the AI, embrace the qubits, then just offer something like this as a part of their service.
+> Here's hoping that someday YouTube will wake up and smell the AI, embrace the qubits, then offer something like this process as a part of their service.
 
 ---
 
