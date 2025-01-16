@@ -1,4 +1,8 @@
-# Transcribe YouTube videos, even Live ones, into readable text.
+# Transcribe any YouTube video, even Live ones or Short ones, into readable text.
+
+> Given youtube's rules and regulations, of course.
+
+--
 
 Install:
 ```
@@ -6,7 +10,18 @@ pipx install insanely-fast-whisper
 export PYTORCH_ENABLE_MPS_FALLBACK=1
 pip install yt_dlp
 ```
+### Go research: *ffmpeg* and *ffprobe* to get those installed too.
 
+--
+
+# Run it in one go/step:
+```
+python -B transcriber.py https://youtube.com/shorts/kqIjyGQNGaU 
+```
+
+--
+
+# or the multiple steps way:
 
 ## 1. Since insanely-fast-whisper only does audio; copy link to a youtube video into:
 ```
@@ -68,10 +83,14 @@ python -B transcript_paragraphs.py
 ```
 ... which uses output.txt to create output_formatted.txt (paragraphs)
 
+### ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
 
-## ... which is more readable, but not perfect, yet AI's can "read" it and summarize and give key takeaways
+--
 
 > Here's hoping that someday YouTube will wake up and just offer something like this as a part of their service.
 
 > Not everyone benefits nor enjoys big talking heads with background music trying to influence us, we prefer our propaganda in words --the old fashion way.
+
+--
+
 
