@@ -72,9 +72,21 @@ rm output*
 python -B cls_yt_audio.py
 ```
 
+### Convert .m4a to .mp3 using ffmpeg: (if needed, like local .mp4)
+```
+from m4a to mp3:
+
+ffmpeg -i claude_ai_projects_editing.m4a -c:a libmp3lame -q:a 2 claude.mp3
+
+
+from mp4 to mp3:
+
+ffmpeg -i claude_ai_projects_editing.mp4 -vn -acodec libmp3lame -q:a 2 cls.mp3
+```
+
 ## 2. cls_yt_audio.py yields: audio.mp3 so then do:
 ```
-insanely-fast-whisper ---file-name output_audio.mp3 ---device-id mps ---model-name openai/whisper-large-v3 ---batch-size 4
+insanely-fast-whisper --file-name output_audio.mp3 --device-id mps --model-name openai/whisper-large-v3 --batch-size 4
 ```
 > get coffee, walk the dog, mow the yard, sweep up around the ashram; kill time ⏳
 
